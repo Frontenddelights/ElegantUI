@@ -6,7 +6,7 @@
 }
 
 body {
-   background-color: darkgray;
+   background-color: rebeccapurple;
 }
 
 .main {
@@ -18,12 +18,10 @@ body {
 }
 
 .container {
-
    height: 400px;
    display: flex;
    flex-wrap: nowrap;
    justify-content: start;
-
 }
 
 .card {
@@ -44,17 +42,6 @@ body {
    color: white;
    display: flex;
    flex-wrap: nowrap;
-}
-
-.card>.row>.cn {
-   background-color: black;
-   color: white;
-   border-radius: 50%;
-   width: 50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 15px;
 }
 
 .card>.row>.description {
@@ -93,32 +80,36 @@ input:checked+label.description {
 }
 
 .card[for='card1'] {
-   background-image: url(./images/shiv.jpg);
+   background-image: url(../images/shiv.jpg);
 }
 
 .card[for='card2'] {
-   background-image: url(./images/krishna.jpg);
+   background-image: url(../images/krishna.jpg);
 }
 
 .card[for='card3'] {
-   background-image: url(./images/anji.jpg);
+   background-image: url(../images/anji.jpg);
 }
 
 .card[for='card4'] {
-   background-image: url(./images/subramanya.jpg);
+   background-image: url(../images/subramanya.jpg);
 }
-h4{
+
+h4 {
    font-size: medium;
-   margin:0px 17px
+   margin: 0px 17px
 }
-p{
+
+p {
    font-size: .9rem;
 }
-.description{
+
+.description {
    width: 20px !important;
 }
-p{
+
+p {
    font-family: Georgia, 'Times New Roman', Times, serif;
-   color:whitesmoke;
+   color: whitesmoke;
    font-size: 15px;
 }
