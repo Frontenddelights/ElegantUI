@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Script.js"></script>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-image: url(images/bg.jpg);
+        overflow: hidden;
+    }
+
+    label {
+        font-size: larger;
+        font-weight: 700;
+        color: rgb(10, 10, 10);
+        font-family: cursive;
+    }
+
+    form {
+        width: 300px;
+        margin: 3vh auto 0 auto;
+        padding: 10px;
+        background-color: transparent;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    h1 {
+        color: black;
+        text-align: center;
+        font-size: 2.3em;
+        font-family: cursive;
+    }
+
+    button {
+        padding: 10px;
+        margin-top: 10px;
+        color: white;
+        background-color: blue;
+        border: none;
+        text-align: center;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-family: cursive;
+    }
+    .input-control {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-control input {
+        border: 2px solid wheat;
+        border-radius: 4px;
+        display: block;
+        font-size: 16px;
+        padding: 10px;
+        font-weight: 700;
+        height: 25px;
+        background: transparent;
+        font-family: cursive;
+    }
+
+    .input-control input:focus {
+        outline: 0;
+    }
+
+    .input-control.success input {
+        border-color: green;
+    }
+
+    .input-control.error input {
+        border-color: red;
+    }
+
+    .input-control.error {
+        color: red;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .wrapper {
+        background: #f3eaea57;
+        backdrop-filter: blur(3px);
+        border: 2px solid rgb(255, 255, 255 /16%);
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10% auto;
+        max-width: fit-content;
+        padding: 2rem 3rem;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <form id="form" action="/">
+            <h1>Registation Form</h1>
+            <div class="input-control">
+                <label for="uname">Username </label>
+                <input type="text" name="uname" id="uname" placeholder="example_username" class="form-input">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email </label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="Password" placeholder="**********">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="cpassword">Confirm Password </label>
+                <input type="password" name="cpassword" id="cpassword" placeholder="*********">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
