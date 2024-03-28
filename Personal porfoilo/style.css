@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
 * {
@@ -10,9 +9,10 @@
 }
 
 body {
-   /* background-color: #070707; */
+
    color: whitesmoke;
 }
+
 .container {
    position: fixed;
    top: 0;
@@ -34,7 +34,7 @@ body {
    position: relative;
 }
 
- 
+
 .logo::before {
    content: '';
    position: absolute;
@@ -42,7 +42,7 @@ body {
    right: 0;
    width: 100%;
    height: 100%;
-   background:#202928;
+   background: #202928;
    animation: showright 1s ease forwards;
    animation-delay: .2s;
 }
@@ -56,14 +56,15 @@ body {
    transform: .4s;
    position: relative;
 }
-.navbar a::before{
+
+.navbar a::before {
    content: '';
    position: absolute;
    top: 0;
    right: 0;
    width: 100%;
    height: 100%;
-   background:#202928;
+   background: #202928;
    animation: showright 1s ease forwards;
    animation-delay: .3s;
 }
@@ -71,7 +72,7 @@ body {
 .navbar a:hover,
 .navbar a.active {
    color: deeppink;
-   /* Dought */
+
 }
 
 .content {
@@ -85,14 +86,15 @@ body {
    background-position: center;
    position: relative;
 }
-.content::before{
+
+.content::before {
    content: '';
    position: absolute;
    top: 0;
    right: 0;
    width: 100%;
    height: 100%;
-   background:#202928;
+   background: #202928;
    animation: showright 1s ease forwards;
    animation-delay: .4s;
 }
@@ -100,12 +102,14 @@ body {
 .main-content {
    max-width: 600px;
 }
+
 .main-content h1 {
    font-size: 57px;
    font-weight: 700;
    line-height: 1.2;
    position: relative;
 }
+
 .main-content h1::before {
    content: '';
    position: absolute;
@@ -113,63 +117,47 @@ body {
    right: 0;
    width: 100%;
    height: 100%;
-   background:#202928;
+   background: #202928;
    animation: showright 1s ease forwards;
    animation-delay: .4s;
 }
+
 .main-content h3 {
    font-size: 30px;
    font-weight: 600px;
    color: lightgreen;
    position: relative;
 }
-.main-content h3::before{
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background:#202928;
-      animation: showright 1s ease forwards;
-      animation-delay: .6s;
-   }
+
+.main-content h3::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background: #202928;
+   animation: showright 1s ease forwards;
+   animation-delay: .6s;
+}
+
 .main-content p {
    font-size: 16px;
    margin: 20px 0 40px;
    position: relative;
 }
-.main-content p::before{
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background:#202928;
-      animation: showright 1s ease forwards;
-      animation-delay: .8s;
-   }
-/* 
-.main-content .b-box {
-   width: 345px;
-   height: 50px;
-   display: flex;
-   justify-content: space-between;
-   position: relative;
-}
 
-.main-content .b-box::before{
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background:#202928;
-      animation: showright 1s ease forwards;
-      animation-delay: .9s;  
-} */
+.main-content p::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100%;
+   height: 100%;
+   background: #202928;
+   animation: showright 1s ease forwards;
+   animation-delay: .8s;
+}
 
 .b-box a {
    width: 150px;
@@ -190,40 +178,30 @@ body {
    overflow: hidden;
    transform: .5s;
 }
- .button-box a::before {
+
+.button-box a::before {
    content: '';
    position: absolute;
    top: 0;
    right: 0;
    width: 100%;
    height: 100%;
-   background:#202928;
+   background: #202928;
    animation: showright 1s ease forwards;
    animation-delay: 1.0s;
-} 
+}
 
 .socail-media {
    position: absolute;
    bottom: 40px;
    width: 170px;
-   /* background-color: red; */
    display: flex;
+
    justify-content: space-between;
    z-index: 1;
 }
 
-.socail-media::before{
-   content: '';
-   position: absolute;
-   top: 0;
-   right: 0;
-   width: 100%;
-   height: 100%;
-   z-index: 1;
-   background:red;
-   animation: showright 1s ease forwards;
-   animation-delay: 1.3s;
-}
+
 
 .socail-media a {
    display: inline-flex;
@@ -274,16 +252,19 @@ body {
       width: 0;
    }
 }
+
 .frame {
    width: 90%;
    margin: 40px auto;
    text-align: center;
- }
- button {
+}
+
+button {
    margin: 20px;
    position: relative;
- }
- .custom-btn {
+}
+
+.custom-btn {
    width: 130px;
    height: 50px;
    color: #fff;
@@ -298,10 +279,10 @@ body {
    position: relative;
    display: inline-block;
    border: 1px solid #626060;
- }
- 
- .custom-btn16{
-   width: 200px;
+}
+
+.custom-btn16 {
+   width: 150px;
    height: 50px;
    color: #fff;
    border-radius: 5px;
@@ -315,18 +296,20 @@ body {
    position: relative;
    display: inline-block;
    border: 1px solid #626060;
- }
- 
- /* 15 */
- .btn-15 ,.btn-16 {
+}
+
+/* 15 */
+.btn-15,
+.btn-16 {
    background: transparent;
    z-index: 1;
    font-size: large;
    color: aqua;
    position: relative;
- }
- /* dought */
-.custom-btn16::before{
+}
+
+/* dought */
+.custom-btn16::before {
    content: '';
    position: absolute;
    top: 0;
@@ -334,12 +317,13 @@ body {
    width: 100%;
    height: 100%;
    z-index: 1;
-   background:#202928;
+   background: #202928;
    animation: showright 1s ease forwards;
    animation-delay: 1.3s;
 }
 
- .btn-15:after ,.btn-16:after {
+.btn-15:after,
+.btn-16:after {
    position: absolute;
    content: "";
    width: 0;
@@ -351,25 +335,32 @@ body {
    background-color: aqua;
    border-radius: 5px;
    transition: all 0.9s ease;
- }
- .btn-15:hover , .btn-16:hover{
-   color:black;
- }
- .btn-15:hover:after , .btn-16:hover::after{
+}
+
+.btn-15:hover,
+.btn-16:hover {
+   color: black;
+}
+
+.btn-15:hover:after,
+.btn-16:hover::after {
    left: 0;
    width: 100%;
- }
- .btn-15:active ,.btn-16:active {
+}
+
+.btn-15:active,
+.btn-16:active {
    top: 2px;
- }
- 
- /* 16 */
+}
+
+/* 16 */
 .btn-16 {
    /* border: none; */
    color: aqua;
    width: 25%;
- }
- .btn-16:after {
+}
+
+.btn-16:after {
    position: absolute;
    content: "";
    width: 0;
@@ -379,20 +370,23 @@ body {
    direction: rtl;
    z-index: -1;
    box-shadow:
-    -7px -7px 20px 0px #fff9,
-    -4px -4px 5px 0px #fff9,
-    7px 7px 20px 0px #0002,
-    4px 4px 5px 0px #0001;
+      -7px -7px 20px 0px #fff9,
+      -4px -4px 5px 0px #fff9,
+      7px 7px 20px 0px #0002,
+      4px 4px 5px 0px #0001;
    transition: all 0.3s ease;
- }
- .btn-16:hover {
+}
+
+.btn-16:hover {
    color: #000;
- }
- .btn-16:hover:after {
+}
+
+.btn-16:hover:after {
    left: auto;
    right: 0;
    width: 100%;
- }
- .btn-16:active {
+}
+
+.btn-16:active {
    top: 2px;
- }
+}
