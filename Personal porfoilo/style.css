@@ -233,8 +233,8 @@ body {
 .image-hover {
    position: absolute;
    top: 0;
-   right: 200px;
-   width: 500px;
+   right: 300px;
+   width: 650px;
    height: 100%;
    background: transparent;
    transition: 3s;
