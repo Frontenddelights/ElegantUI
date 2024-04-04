@@ -1,9 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('form');
     const uname = document.getElementById('uname');
     const email = document.getElementById('email');
     const Password = document.getElementById('Password');
     const cpassword = document.getElementById('cpassword');
+    const togglePassword = document.querySelector('.toggle-password');
 
     const setValidationMessage = (element, message, isSuccess) => {
         const inputcontrol = element.parentElement;
@@ -35,14 +36,15 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', e => {
         e.preventDefault();
         if (validateInputs()) {
-            console.log('Form submitted successfully!');
-            console.log(validateInputs().usernameValue);
+            alert('Form submitted successfully!');
         }
+        form.reset()
     });
 
+   
 });
 function ShowPassword() {
-    var Password = document.getElementById("myInput");
+    var Password = document.getElementById("Password");
     if (Password.type === "password") {
         Password.type = "text";
     } else {
